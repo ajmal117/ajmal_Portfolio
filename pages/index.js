@@ -70,6 +70,7 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               I want to make really cool and easy-to-use websites as a web
               developer. I like making websites that people will enjoy using.
+          
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillGithub
@@ -107,7 +108,7 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               <b>React.js:</b> Developed dynamic user interfaces with React,
               leveraging component-based architecture and state management to
-              create responsive and interactive web applications.
+              create responsive and interactive web applications pages.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               <b> Next.js:</b> Built server-rendered React applications using
