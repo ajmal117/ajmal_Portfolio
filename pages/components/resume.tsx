@@ -6,8 +6,8 @@ import resumePic from "../../public/ajmalresume.png";
 function Resume() {
   return (
     <>
-      <div className="my-2 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
-        <span className="border p-1 font-semibold rounded-md  my-4 bg-slate-500 text-slate-100 float-right">
+      <div className="my-2 mb-8 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+        <span className="border border-red-300 p-1 px-2 font-semibold rounded-md  my-4 hover:bg-slate-500 hover:text-slate-100 text-slate-500 float-right">
           <Link href="/">Home Page</Link>
         </span>
         <div className="">
