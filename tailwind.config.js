@@ -9,7 +9,10 @@ module.exports = {
     extend: {
       fontFamily: {
         burtons: "burtons",
+        raleway: ["Raleway"," sans-serif"],
         poppins: ["Poppins", "sans-serif"],
+        greatvibe: ["Great Vibes"],
+
       },
     },
   },
