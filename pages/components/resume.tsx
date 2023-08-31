@@ -13,7 +13,7 @@ function Resume() {
           </Link>
         </span>
         <div className="">
-          <Image src={resumePic} priority />
+          <Image src={resumePic} priority alt="" />
         </div>
         <div>
           <button className="p-1 text-red-500 rounded-md border-2 border-red-700 cursor-pointer hover:bg-gray-300">

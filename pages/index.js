@@ -96,7 +96,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full shadow-md shadow-sky-500  w-56 h-60  relative overflow-hidden mt-10 md:h-96 md:w-96">
-              <Image src={ajmal} className="" layout="fill" objectFit="cover" priority />
+              <Image alt="" src={ajmal} className="" layout="fill" objectFit="cover" priority  />
             </div>
           </div>
         </section>
@@ -117,13 +117,13 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} />
+              <Image alt="" src={design} />
 
               <p className="py-2">React JS</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <div className="mt-6">
-                <Image src={code} />
+                <Image alt="" src={code} />
               </div>
 
               <p className="py-2 pt-12">Next JS</p>
@@ -146,7 +146,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 p-7 border-1 rounded-lg shadow-lg shadow-yellow-400">
-              <Image
+              <Image alt=""
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -155,7 +155,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1 p-7  border-1 rounded-lg shadow-lg shadow-blue-400 ">
-              <Image
+              <Image alt=""
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -164,7 +164,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1 p-7  border-1 rounded-lg shadow-lg shadow-orange-400 ">
-              <Image
+              <Image alt=""
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -174,7 +174,7 @@ export default function Home() {
             </div>
 
             <div className="basis-1/3 flex-1 p-7  border-1 rounded-lg shadow-lg shadow-blue-400 ">
-              <Image
+              <Image alt=""
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -183,7 +183,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1 p-7  border-1 rounded-lg shadow-lg shadow-blue-400 ">
-              <Image
+              <Image alt=""
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -192,7 +192,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1 p-7  border-1 rounded-lg shadow-lg shadow-red-400 ">
-              <Image
+              <Image alt=""
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
