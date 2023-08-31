@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
+// import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import Image from "next/image";
@@ -17,14 +17,11 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
-
-
-
+import ajmal from "../public/ajmal.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-  
- 
+
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -47,15 +44,15 @@ export default function Home() {
                 />
               </li>
               <li>
-                <Link href="components/resume" >
-                {/* <a target="_blank" > */}
-                <label
+                <Link href="components/resume">
+                  {/* <a target="_blank" > */}
+                  <label
                     title="Resume"
                     className="bg-gradient-to-r cursor-pointer from-cyan-500 text- to-teal-500 text-white  px-4 py-2 border-none rounded-md ml-1 sm:ml-8"
                   >
-                   Resume
+                    Resume
                   </label>
-                {/* </a> */}
+                  {/* </a> */}
                 </Link>
               </li>
             </ul>
@@ -70,7 +67,6 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               I want to make really cool and easy-to-use websites as a web
               developer. I like making websites that people will enjoy using.
-          
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillGithub
@@ -97,8 +93,8 @@ export default function Home() {
                 />
               </Link>
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full  w-56 h-60  relative overflow-hidden mt-10 md:h-96 md:w-96">
-              <Image src={deved} className="" layout="fill" objectFit="cover" />
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full shadow-md shadow-sky-500  w-56 h-60  relative overflow-hidden mt-10 md:h-96 md:w-96">
+              <Image src={ajmal} className="" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -203,7 +199,6 @@ export default function Home() {
               />
             </div>
           </div>
-         
         </section>
       </main>
     </div>
