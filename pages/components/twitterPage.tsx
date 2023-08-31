@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+// import img from "next/img";
 
 const user = {
   name: "Ajmal Ali",
@@ -68,8 +69,10 @@ const ProfilePage = () => {
   return (
     <div className="profile-page p-6">
       <span className="border border-red-300 p-1 px-2 font-semibold rounded-md  my-4 hover:bg-slate-500 hover:text-slate-100 text-slate-500 float-right">
-          <Link href="/">Home Page</Link>
-        </span>
+        <Link href="/" passHref>
+          <a>Home Page</a>
+        </Link>
+      </span>
       <ProfileHeader user={user} />
       <ProfileTabs />
       <div className="tweets">

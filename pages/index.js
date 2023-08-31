@@ -44,15 +44,15 @@ export default function Home() {
                 />
               </li>
               <li>
-                <Link href="components/resume">
-                  {/* <a target="_blank" > */}
-                  <label
-                    title="Resume"
-                    className="bg-gradient-to-r cursor-pointer from-cyan-500 text- to-teal-500 text-white  px-4 py-2 border-none rounded-md ml-1 sm:ml-8"
-                  >
-                    Resume
-                  </label>
-                  {/* </a> */}
+                <Link href="components/resume" passHref>
+                  <a>
+                    <label
+                      title="Resume"
+                      className="bg-gradient-to-r cursor-pointer from-cyan-500 text- to-teal-500 text-white  px-4 py-2 border-none rounded-md ml-1 sm:ml-8"
+                    >
+                      Resume
+                    </label>
+                  </a>
                 </Link>
               </li>
             </ul>
@@ -86,15 +86,17 @@ export default function Home() {
                   );
                 }}
               />
-              <Link href="components/twitterPage">
-                <AiFillTwitterCircle
-                  className="cursor-pointer"
-                  title="twitter"
-                />
+              <Link href="components/twitterPage" passHref>
+                <a>
+                  <AiFillTwitterCircle
+                    className="cursor-pointer"
+                    title="twitter"
+                  />
+                </a>
               </Link>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full shadow-md shadow-sky-500  w-56 h-60  relative overflow-hidden mt-10 md:h-96 md:w-96">
-              <Image src={ajmal} className="" layout="fill" objectFit="cover" />
+              <Image src={ajmal} className="" layout="fill" objectFit="cover" priority />
             </div>
           </div>
         </section>
