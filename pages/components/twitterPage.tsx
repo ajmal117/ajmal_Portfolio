@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const user = {
   name: "Ajmal Ali",
@@ -11,11 +12,14 @@ const user = {
 const ProfileHeader = ({ user }) => {
   return (
     <div className="profile-header bg-white p-4 rounded-lg shadow-md">
-      <img
-        className="w-20 h-20 rounded-full mx-auto mb-2"
+      <Image
+        width={"100%"}
+        height={"100%"}
+        className="w-20 h-20 rounded-full"
         src={user.avatar}
         alt={`${user.name}'s Avatar`}
       />
+
       <h1 className="text-xl font-semibold">{user.name}</h1>
       <p className="text-gray-600">@{user.username}</p>
       <p className="text-gray-700">{user.bio}</p>
@@ -51,7 +55,9 @@ const tweets = [
 const Tweet = ({ tweet }) => {
   return (
     <div className="tweet bg-white p-4 mt-4 rounded-lg shadow-md flex">
-      <img
+      <Image
+        width={"50%"}
+        height={"50%"}
         className="w-12 h-12 rounded-full mr-4"
         src={tweet.author.avatar}
         alt={`${tweet.author.name}'s Avatar`}
