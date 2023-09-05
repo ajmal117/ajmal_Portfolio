@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import img from "next/img";
+
 
 const user = {
   name: "Ajmal Ali",

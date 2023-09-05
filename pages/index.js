@@ -44,7 +44,7 @@ export default function Home() {
                 />
               </li>
               <li>
-                <Link href="components/resume" passHref>
+                <Link href="./components/resume" passHref>
                   <a>
                     <label
                       title="Resume"
@@ -86,7 +86,7 @@ export default function Home() {
                   );
                 }}
               />
-              <Link href="components/twitterPage" passHref>
+              <Link href="./components/twitterPage" passHref>
                 <a>
                   <AiFillTwitterCircle
                     className="cursor-pointer"
