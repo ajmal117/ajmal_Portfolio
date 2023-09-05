@@ -17,7 +17,7 @@ function Resume() {
         </div>
         <div>
           <button className="p-1 text-red-500 rounded-md border-2 border-red-700 cursor-pointer hover:bg-gray-300">
-            <a href="/resumeFile.pdf" download={"Ajmal_Resume"}>
+            <a href="./resumeFile.pdf" download={"Ajmal_Resume"}>
               Download Resume
             </a>
           </button>

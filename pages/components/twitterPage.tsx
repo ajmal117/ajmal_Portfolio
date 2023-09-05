@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 
-
 const user = {
   name: "Ajmal Ali",
   username: "mdm_ajmal",
