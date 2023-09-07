@@ -104,8 +104,8 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Experience</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              <b>React.js:</b> Developed dynamic user interfaces with React,
-              leveraging component-based architecture and state management to
+              <b>React.js : </b> Developed dynamic user interfaces with React,
+              leveraging component based architecture and state management to
               create responsive and interactive web applications pages.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
